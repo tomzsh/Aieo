@@ -9,7 +9,7 @@ export const SITE = {
   /** Primary GitHub repository */
   githubUrl:
     process.env.NEXT_PUBLIC_GITHUB_URL?.trim() ||
-    "https://github.com/tomzsh/aieo",
+    "https://github.com/tomzsh/Aieo",
   githubOwner: "tomzsh",
-  githubRepo: "aieo",
+  githubRepo: "Aieo",
 } as const;

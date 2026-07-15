@@ -9,7 +9,7 @@
 Internal editorial tool: raw news draft → SEO-ready article → publish/schedule to WordPress.  
 Postgres & Auth via Supabase. UI: **Indonesia (ID)** | **English (EN)**.
 
-**Repository:** [github.com/tomzsh/aieo](https://github.com/tomzsh/aieo)
+**Repository:** [github.com/tomzsh/Aieo](https://github.com/tomzsh/Aieo)
 
 ---
 
@@ -170,7 +170,7 @@ scripts/
 See [`.env.example`](./.env.example). Optional:
 
 ```bash
-# Public GitHub link in UI footer (default: https://github.com/tomzsh/aieo)
+# Public GitHub link in UI footer (default: https://github.com/tomzsh/Aieo)
 # NEXT_PUBLIC_GITHUB_URL=https://github.com/your-user/your-repo
 ```
 
