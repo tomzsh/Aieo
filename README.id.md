@@ -7,7 +7,8 @@
 [![Status](https://img.shields.io/badge/status-early%20%2F%20alpha-orange)](#disclaimer)
 [![GitHub](https://img.shields.io/badge/github-tomzsh%2FAieo-181717?logo=github)](https://github.com/tomzsh/Aieo)
 
-> **English (primary):** see [README.md](./README.md)
+> **English (primary):** see [README.md](./README.md)  
+> **AI coding agents:** see [AGENTS.md](./AGENTS.md)
 
 Aieo membantu redaksi mengubah **draf berita mentah** menjadi **artikel SEO-ready**, lalu **publish / jadwalkan ke WordPress** — dalam satu alur kerja.
 
@@ -399,9 +400,12 @@ Dokumentasi lebih panjang di app: **`/docs`**.
 Aieo/
 ├── README.md                 # English (utama)
 ├── README.id.md              # Bahasa Indonesia (file ini)
+├── AGENTS.md                 # AI coding agents
+├── CLAUDE.md
 ├── LICENSE                   # MIT
 ├── package.json
 ├── .env.example
+├── .github/copilot-instructions.md
 ├── public/
 ├── scripts/
 ├── supabase/migrations/      # 001 … 008
@@ -444,6 +448,16 @@ curl -s http://localhost:3000/api/health
 - RLS Supabase membatasi data per workspace  
 
 ---
+
+## AI agents
+
+Repo ini **ramah AI agent**. Agent coding sebaiknya mulai dari:
+
+| File | Fungsi |
+|------|--------|
+| **[AGENTS.md](./AGENTS.md)** | Peta utama: stack, perintah, arsitektur, konvensi, gotcha |
+| [CLAUDE.md](./CLAUDE.md) | Pointer singkat untuk Claude Code |
+| [.github/copilot-instructions.md](./.github/copilot-instructions.md) | Instruksi GitHub Copilot |
 
 ## Kontribusi
 

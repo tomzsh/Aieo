@@ -54,7 +54,5 @@ next-env.d.ts
 Thumbs.db
 Desktop.ini
 
-# local / agent notes (do not publish)
-/AGENTS.md
-/CLAUDE.md
+# local agent session caches (do not publish)
 /.grok

@@ -8,7 +8,8 @@
 [![Status](https://img.shields.io/badge/status-early%20%2F%20alpha-orange)](#disclaimer)
 [![GitHub](https://img.shields.io/badge/github-tomzsh%2FAieo-181717?logo=github)](https://github.com/tomzsh/Aieo)
 
-> **Bahasa Indonesia:** see [README.id.md](./README.id.md)
+> **Bahasa Indonesia:** see [README.id.md](./README.id.md)  
+> **AI coding agents:** see [AGENTS.md](./AGENTS.md) (Claude: [CLAUDE.md](./CLAUDE.md))
 
 Turn **raw news drafts** into **SEO-ready articles**, then **publish or schedule to WordPress** — one editorial workflow.
 
@@ -400,9 +401,12 @@ Longer docs inside the app: **`/docs`**.
 Aieo/
 ├── README.md                 # English (this file)
 ├── README.id.md              # Indonesian
+├── AGENTS.md                 # AI coding agents (canonical)
+├── CLAUDE.md                 # Claude Code → AGENTS.md
 ├── LICENSE                   # MIT
 ├── package.json
 ├── .env.example              # env template (no secrets)
+├── .github/copilot-instructions.md
 ├── public/
 ├── scripts/                  # prompt template seeds
 ├── supabase/
@@ -459,6 +463,16 @@ curl -s http://localhost:3000/api/health
 - Supabase RLS scopes data per workspace  
 
 ---
+
+## AI agents
+
+This repo is **agent-friendly**. Coding agents should start with:
+
+| File | Purpose |
+|------|---------|
+| **[AGENTS.md](./AGENTS.md)** | Canonical map: stack, commands, architecture, conventions, gotchas |
+| [CLAUDE.md](./CLAUDE.md) | Short pointer for Claude Code |
+| [.github/copilot-instructions.md](./.github/copilot-instructions.md) | GitHub Copilot project instructions |
 
 ## Contributing
 
